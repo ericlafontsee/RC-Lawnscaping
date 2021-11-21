@@ -186,10 +186,10 @@ a,
   color: var(--Dark_Green);
 }
 
-.cta:hover {
+/* .cta:hover {
   color: #3b826e;
   text-decoration: none;
-}
+} */
 
 .reviews{
   margin-top: -50px;
