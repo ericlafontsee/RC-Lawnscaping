@@ -101,6 +101,11 @@ header {
     height: 225px;
   }
 }
+@media screen and (max-width: 465px) {
+  .headerImg {
+    height: 165px;
+  }
+}
 
 #overlay {
   z-index: 1000;
