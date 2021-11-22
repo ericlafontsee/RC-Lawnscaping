@@ -190,9 +190,9 @@ a,
   color: #3b826e;
   text-decoration: none;
 } */
-
-.reviews{
+.about{
   margin-top: -50px;
+  padding-top: 100px;
   /* background: #a1ada9; */
   background: -webkit-gradient(
     linear,left top, left bottom,from(#a1ada9),to(#fff));
@@ -201,13 +201,18 @@ a,
   background: linear-gradient(
     180deg,#a1ada9 0%,#fff 100%);
 
-
 }
+
+@media screen and (max-width: 768px){
+  .recovered{
+    margin-top: 60px;
+  }
+}
+
 .reviews .row {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-top: 100px;
 }
 
 .reviewImg {
